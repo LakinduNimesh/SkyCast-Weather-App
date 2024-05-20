@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>#3 Weather-App @LakiNim</title>
+</head>
+
+<body>
+
+  <div class="weather-app">
+    <div class="container">
+      <h3 class="Logo">SkyCast</h3>
+      <div>
+        <h1 class="temperature">16&#176;</h1>
+        <div class="city-time">
+          <h1 class="cityname">Colombo</h1>
+          <small>
+            <span class="time">06:09</span>
+            -
+            <span class="date">
+              Monday May 20
+            </span>
+          </small>
+        </div>
+        <div class="weather">
+          <img src="./icons/day/113.png" class="icon" alt="icon" width="50" height="50">
+          <span class="weather-condition">Cloudy</span>
+        </div>
+      </div>
+    </div>
+    <div class="panal">
+      <form id="locationInput">
+        <input type="text" class="search" placeholder="Search Location...">
+        <button type="submit" class="submit">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+      </form>
+
+      <ul class="cities">
+        <li class="city">Colombo</li>
+        <li class="city">New York</li>
+        <li class="city">Paris</li>
+        <li class="city">London</li>
+      </ul>
+
+      <ul class="details">
+        <h4>Weather Details</h4>
+        <li>
+          <span>Cloudy</span>
+          <span class="cloud">90%</span>
+        </li>
+        <li>
+          <span>Humidity</span>
+          <span class="humidity">65%</span>
+        </li>
+        <li>
+          <span>Wind</span>
+          <span class="wind">10km/h</span>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -2,7 +2,9 @@
 # SkyCast Weather App
 
 SkyCast is a sleek and user-friendly weather application that provides current weather information for various cities worldwide. This app allows users to search for their desired location and view weather details, including temperature, humidity, wind speed, and more.
+
 ![Screenshot 2024-05-20 223652](https://github.com/LakinduNimesh/SkyCast-Weather-App/assets/149768006/0829b01c-ea08-49e4-b92d-8f33f7a445ab)
+
 ## Features
 
 - **Current Weather**: Get real-time weather updates for any city.
